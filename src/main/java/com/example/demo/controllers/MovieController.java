@@ -10,8 +10,6 @@ import com.example.demo.services.GeminiService;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
-import java.util.List;
-
 @RestController
 @RequestMapping("/movies")
 public class MovieController {

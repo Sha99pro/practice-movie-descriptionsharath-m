@@ -20,5 +20,4 @@ public class GeminiService {
         GenerateContentResponse response = client.models.generateContent("gemini-3.6-flash", "Write a short description for the movie: " + movieTitle, null);
         return response.text();
     }
-
 }

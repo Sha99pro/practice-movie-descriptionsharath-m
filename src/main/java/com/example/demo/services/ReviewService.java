@@ -17,7 +17,6 @@ public class ReviewService {
     }
 
     public String generateReview(String movieTitle) throws IOException, HttpException {
-
         GenerateContentResponse response =
                 client.models.generateContent(
                         "gemini-3.6-flash",
@@ -25,7 +24,6 @@ public class ReviewService {
                                 + movieTitle,
                         null
                 );
-
         return response.text();
     }
 }

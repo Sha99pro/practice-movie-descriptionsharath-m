@@ -44,7 +44,6 @@ public class Movie {
     public void setTitle(String title) {
         this.title = title;
     }
-
     public Integer getId(){
         return id;
     }
